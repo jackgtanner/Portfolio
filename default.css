@@ -1,0 +1,69 @@
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.navBar{
+    padding: 0.5%;
+    display: flex;
+    justify-content: flex-end;
+    width: 97%;
+    height: 4%;
+}
+
+#active {
+    background-color: black;
+    color: rgb(240, 240, 240);
+}
+
+a{
+    width: 8%;
+    color: black;
+    background-color: rgb(240, 240, 240);
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid black 2px;
+    margin: 0px 4px 0px 4px;
+    padding: 0px 1% 0px 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer{
+    position: absolute;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    margin: 3%;
+    font-family: 'Rubik Mono One', sans-serif;
+    background-image: linear-gradient(to right, rgb(129, 129, 255) 40%, rgb(240, 240, 240) 0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome{
+    font-size: 3vh;
+    width: 50%;
+}
+
+.initalContainer{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 5%;
+    top: 8%;
+    text-align: center;
+    align-items: center;
+    font-size: 10vh;
+}
+
+.inital:hover{
+    color: white;
+}
