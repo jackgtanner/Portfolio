@@ -3,20 +3,26 @@ body, html{
     margin: 0;
     padding: 0;
     height: 100%;
+    background-image: url("./assets/benjamin-davies-Oja2ty_9ZLM-unsplash.jpg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+
 }
 
-*
-{
-   margin:  0;
-   padding: 0;
-}
+
 
 .navBar{
+    position: inherit;
+    top: 0px;
     width: 100%;
-    height: 3%;
+    height: 7.5%;
     display: flex;
-    justify-content: center;
-    margin: 0px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px 15px 0px 0px;
+
 }
 
 #active {
@@ -26,32 +32,32 @@ body, html{
 
 a{
     font-size: 12px;
-    margin: 0px 5px 0px 5px;
-
-    width: 17.5%;
+    margin-bottom: 5px;
+    width: 25%;
     height: 100%;
     color: black;
-    background-color: rgb(240, 240, 240);
+    border-bottom: ridge ivory 2px;
     font-family: 'Rubik Mono One', sans-serif;
     text-decoration: none;
-    border-radius: 10px;
-    border: solid black 2px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 13px 13px 0px 0px;
 }
 
 .mainContainer{
+    border-radius: 15px;
     position: absolute;
     bottom:0;
     top:0;
     left:0;
     right:0;
-    margin: 3%;
+    margin: 4%;
     font-family: 'Rubik Mono One', sans-serif;
-    background-image: linear-gradient(to right, rgb(129, 129, 255) 40%, rgb(240, 240, 240) 0%);
+    background-image: linear-gradient(to right, rgb(85, 85, 199) 40%, rgb(240, 240, 240) 0%);
     display: flex;
-    box-shadow: 5px 5px 5px grey;
+    /* box-shadow: 5px 5px 5px grey; */
+    justify-content: flex-end;
 }
 
 
@@ -64,12 +70,15 @@ a{
 }
 
 .initalContainer{
-    align-self: flex-start;
+    position: inherit;
+    left: 10px;
+    bottom: 10px;
+    align-self: flex-end;
     justify-self: flex-start;
-    margin: 10%;
+    margin: 2%;
     padding: 3px;
     width: 30%;
-    font-size: 5em;
+    font-size: 60px;
     display: grid;
     grid-template-columns: 15% 85%;
     grid-template-rows: 33% 33% 33%;
@@ -102,17 +111,13 @@ a{
     }
 
     .initalContainer{
-        left: 8%;
-        top: 10%;
-        font-size: 6vh;
+
+        font-size: 50px;
     }
 
-    .navBar{
-        padding: 1%;
-        padding-bottom: 0.5%;
-        height: 5%;
+    a {
+        font-size: 18px;
     }
-
 
 
   }
@@ -126,14 +131,12 @@ a{
     }
 
     .initalContainer{
-        left: 9%;
-        top: 10%;
-        font-size: 6vh;
+
+        font-size: 40px;
     }
 
     .navBar{
-        padding: 0.5%;
-        height: 4%;
+        height: 5%;
     }
 
     a{
@@ -151,11 +154,10 @@ a{
 
     .mainContainer{
         margin: 12.5%;
-        background-image: linear-gradient(to right, rgb(129, 129, 255) 40%, rgb(240, 240, 240) 0%);
     }
 
     .initalContainer{
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .welcome{
@@ -163,14 +165,11 @@ a{
     }
 
     .navBar{
-        margin: 5px;
-        height: 4%;
+        height: 8%;
     }
 
     a{
-        font-size: 10px;
-        margin: 1%;
-        padding: 0px 1% 0px 1%;
+        font-size: 9px;
     }
 
   }
