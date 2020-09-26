@@ -54,7 +54,7 @@ a{
     right:0;
     margin: 4%;
     font-family: 'Rubik Mono One', sans-serif;
-    background-image: linear-gradient(to right, rgb(85, 85, 199) 40%, rgb(240, 240, 240) 0%);
+    background-image: linear-gradient(to right, rgba(111, 111, 197, 0.75) 40%, rgb(240, 240, 240) 0%);
     display: flex;
     /* box-shadow: 5px 5px 5px grey; */
     justify-content: flex-end;
@@ -154,6 +154,7 @@ a{
 
     .mainContainer{
         margin: 12.5%;
+        
     }
 
     .initalContainer{
