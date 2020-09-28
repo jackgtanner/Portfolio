@@ -5,8 +5,9 @@ body, html{
     height: 100%;
     background-image: url("./assets/benjamin-davies-Oja2ty_9ZLM-unsplash.jpg");
     background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    overflow: hidden;
 
 }
 
@@ -20,29 +21,33 @@ body, html{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: rgb(240, 240, 240);
     border-radius: 15px 15px 0px 0px;
 
 }
 
 #active {
-    background-color: rgb(60, 60, 60);
+    background-color: rgba(111, 111, 197);
     color: rgb(240, 240, 240);
 }
 
 a{
-    font-size: 12px;
+    font-size: 1.75vh;
     margin-bottom: 5px;
-    width: 25%;
+    width: 50%;
     height: 100%;
-    color: black;
-    border-bottom: ridge ivory 2px;
+    color: rgba(111, 111, 197, 0.75);
+    background-color: rgb(40, 40, 40, 0.9);
+    border-bottom: solid rgba(111, 111, 197) 4px;
     font-family: 'Rubik Mono One', sans-serif;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 13px 13px 0px 0px;
+}
+
+a:hover{
+    background-color: rgb(40, 40, 40, 1);
 }
 
 .mainContainer{
@@ -54,34 +59,60 @@ a{
     right:0;
     margin: 4%;
     font-family: 'Rubik Mono One', sans-serif;
-    background-image: linear-gradient(to right, rgba(111, 111, 197, 0.75) 40%, rgb(240, 240, 240) 0%);
     display: flex;
-    /* box-shadow: 5px 5px 5px grey; */
     justify-content: flex-end;
 }
 
 
+.rightSide{
+    width: 60%;
+    height: 92.5%;
+    align-self: flex-end;
+    border-radius: 0px 0px 15px 0px;
+    background-color: rgb(40, 40, 40, 0.9);
+    display: flex;
+    justify-content: center;
+}
+
+.leftSide{
+    width: 40%;
+    height: 92.5%;
+    background-image: linear-gradient(to top, rgba(111, 111, 197, 0.35) 60%,  rgba(111, 111, 197, 1));
+    justify-content: center;
+    align-self: flex-end;
+    border-radius: 0px 0px 0px 15px;
+    display: flex;
+    overflow: hidden;
+}
 
 .welcome{
-    justify-self: center;
-    align-self: center;
-    font-size: 3vh;
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    height: 100%;
+    font-size: 1.75vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    width: 75%;
+    color: rgb(100, 100, 100);
+}
+
+.welcome div{
+    margin: 7.5%;
 }
 
 .initalContainer{
-    position: inherit;
-    left: 10px;
-    bottom: 10px;
     align-self: flex-end;
-    justify-self: flex-start;
+    justify-self: center;
     margin: 2%;
     padding: 3px;
-    width: 30%;
-    font-size: 60px;
+    font-size: 4vw;
     display: grid;
     grid-template-columns: 15% 85%;
     grid-template-rows: 33% 33% 33%;
+    flex-grow: inherit;
 }
 
 .inital{
@@ -90,7 +121,6 @@ a{
 
 @keyframes nameAnimation{
     0%   {opacity: 0;}
-    25% {opacity: 0.25;}
     50% {opacity: 0.5;}
     75% {opacity: 0.75;}
     100% {opacity: 1;}
@@ -99,7 +129,23 @@ a{
 .name{
     opacity: 0;
     justify-self: flex-start;
-    animation: nameAnimation 5s ease-in 1s infinite alternate none;
+    animation: nameAnimation 5s ease 1s infinite alternate none;
+}
+
+
+footer{
+    margin: 0px;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: grey;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1.5vh;
 }
 
 
@@ -110,14 +156,6 @@ a{
         margin: 5%;
     }
 
-    .initalContainer{
-
-        font-size: 50px;
-    }
-
-    a {
-        font-size: 18px;
-    }
 
 
   }
@@ -130,18 +168,27 @@ a{
         margin: 8%;
     }
 
-    .initalContainer{
-
-        font-size: 40px;
-    }
-
     .navBar{
         height: 5%;
     }
 
-    a{
+    a {
         font-size: 12px;
     }
+
+    .leftSide{
+        height: 95%;
+    }
+
+    .rightSide{
+        height: 95%;
+    } 
+
+    .welcome{
+        font-size: 18px;
+    }
+
+
 
 
 
@@ -157,16 +204,20 @@ a{
         
     }
 
-    .initalContainer{
-        font-size: 28px;
-    }
-
     .welcome{
         font-size: 15px;
     }
 
     .navBar{
         height: 8%;
+    }
+
+    .leftSide{
+        height: 92%;
+    }
+
+    .rightSide{
+        height: 92%;
     }
 
     a{
