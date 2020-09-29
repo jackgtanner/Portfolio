@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6KJH5XXTVV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-6KJH5XXTVV');
+    </script>
+
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>JGT Portfolio: Projects</title>
-    <link rel="stylesheet" href="default.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="default.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="projects.css">
 
 
 
@@ -20,7 +37,62 @@
             <a href="contact.html">Contact</a>
         </div>
 
-        <div class="leftSide"></div>
+        <div class="leftSide">
+
+
+            <div class="projectList">
+
+                <button class="dropdown-btn" style="margin-top: 4px;">Websites
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+
+                    <div class="project">
+                        <img class="projectPreview" src="./assets/sitePreviews/jackgtanner.png"
+                            alt="jackgtanner website preview">
+                        <div class="projectTitle"> jackgtanner (This Website!)</div>
+                    </div>
+
+                </div>
+
+                <button class="dropdown-btn">Frontend Development
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+
+                    <div class="project">
+                        <img class="projectPreview" src="./assets/sitePreviews/calculator.png"
+                            alt="calculator project preview"></img>
+                        <div class="projectTitle">Calculator</div>
+                    </div>
+
+                    <div class="project">
+                        <img class="projectPreview" src="./assets/sitePreviews/etch-a-sketch.png"
+                            alt="etch-a-sketch project preview"></img>
+                        <div class="projectTitle">Etch-a-Sketch</div>
+                    </div>
+
+                </div>
+
+                <button class="dropdown-btn">Backend Development
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
         <div class="rightSide">
 
             <div class="welcome">
@@ -35,8 +107,17 @@
 
     <footer> ©2020 All Rights Reserved, Jack Tanner </footer>
 
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
         integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
         crossorigin="anonymous"></script>
-    <script src="java.js"></script>
+    <script src="projects.js"></script>
 </body>
+
+
+
+
+<!-- <div class="project">
+    <img class="projectPreview" src="" alt=""></img>
+    <div class="projectTitle"></div>
+</div> -->

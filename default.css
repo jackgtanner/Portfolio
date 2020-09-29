@@ -28,6 +28,7 @@ body, html{
 #active {
     background-color: rgba(111, 111, 197);
     color: rgb(240, 240, 240);
+    border-bottom: solid rgba(111, 111, 197) 4px;
 }
 
 a{
@@ -62,7 +63,6 @@ a:hover{
     display: flex;
     justify-content: flex-end;
 }
-
 
 .rightSide{
     width: 60%;
@@ -132,7 +132,6 @@ a:hover{
     animation: nameAnimation 5s ease 1s infinite alternate none;
 }
 
-
 footer{
     margin: 0px;
     padding: 1px;
@@ -148,22 +147,14 @@ footer{
     font-size: 1.5vh;
 }
 
-
+  
 @media screen and (min-width: 901px) and (max-width: 1400px) {
-
-
     .mainContainer{
         margin: 5%;
     }
-
-
-
   }
 
-
   @media screen and (min-width: 601px) and (max-width: 900px) {
-
-
     .mainContainer{
         margin: 8%;
     }
@@ -187,11 +178,6 @@ footer{
     .welcome{
         font-size: 18px;
     }
-
-
-
-
-
   }
 
 
@@ -223,5 +209,4 @@ footer{
     a{
         font-size: 9px;
     }
-
   }
