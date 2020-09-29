@@ -31,7 +31,7 @@ body, html{
     border-bottom: solid rgba(111, 111, 197) 4px;
 }
 
-a{
+.navBarLink{
     font-size: 1.75vh;
     margin-bottom: 5px;
     width: 50%;
@@ -47,7 +47,7 @@ a{
     border-radius: 13px 13px 0px 0px;
 }
 
-a:hover{
+.navBarLink:hover{
     background-color: rgb(40, 40, 40, 1);
 }
 
