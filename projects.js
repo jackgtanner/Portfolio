@@ -1,3 +1,4 @@
+
 const tl = gsap.timeline({ defaults: { ease: 'power1.out' } });
 var dropdown = document.getElementsByClassName("dropdown-btn");
 var i;
@@ -48,8 +49,8 @@ for (i = 0; i < projectCard.length; i++) {
 
 function listener(index) {
     var titleContent = projectCard[index].innerText;
-    if (titleContent === document.querySelector(".screenTitle").innerHTML){
-        return
+    if (titleContent === document.querySelector(".screenTitle").innerHTML) {
+        return null
     }
     populateProject(titleContent) & projectFadeIn();
 }
@@ -71,25 +72,29 @@ function populateProject(title) {
     live = document.getElementById("live");
     gitHub = document.getElementById("gitHub");
 
-    switch (screenTitle.innerHTML) {
-        case "jackgtanner (This Website!)":
-            readME.innerHTML = ""
-            live.href = "https://www.jackgtanner.co.uk"
-            gitHub.href = "https://github.com/jackgtanner/Portfolio"
-            break;
+    screenTitle.innerText === "Calculator" || screenTitle.innerText === "\nCalculator\n" ? console.log("yes") : console.log("no");
 
-        case "Calculator":
-            readME.innerHTML = ""
-            live.href = "https://jackgtanner.github.io/calculator-project/"
-            gitHub.href = "https://github.com/jackgtanner/calculator-project"
-            break;
-
-        case "Etch-a-Sketch":
-            readME.innerHTML = ""
-            live.href = "https://jackgtanner.github.io/EtchASketch/"
-            gitHub.href = "https://github.com/jackgtanner/EtchASketch"
-            break;
+    if (screenTitle.innerText === "jackgtanner (This Website!)" || screenTitle.innerText === "\njackgtanner (This Website!)\n") {
+        readME.innerHTML = "";
+        live.href = "https://www.jackgtanner.co.uk";
+        gitHub.href = "https://github.com/jackgtanner/Portfolio";
+    } else if (screenTitle.innerText === "Calculator" || screenTitle.innerText === "\nCalculator\n") {
+        readME.innerHTML = "";
+        live.href = "https://jackgtanner.github.io/calculator-project/";
+        gitHub.href = "https://github.com/jackgtanner/calculator-project";
+    } else if (screenTitle.innerText === "Etch-a-Sketch" || screenTitle.innerText === "\nEtch-a-Sketch\n") {
+        readME.innerHTML = "";
+        live.href = "https://jackgtanner.github.io/EtchASketch/";
+        gitHub.href = "https://github.com/jackgtanner/EtchASketch";
     }
+    
 
     return
 }
+
+
+
+
+
+
+
