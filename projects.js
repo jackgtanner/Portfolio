@@ -48,7 +48,10 @@ for (i = 0; i < projectCard.length; i++) {
 
 function listener(index) {
     var titleContent = projectCard[index].innerText;
-    projectContent[0].style.display === "none" ? populateProject(titleContent) & projectFadeIn() : projectContent[0].style.display = "none";
+    if (titleContent === document.querySelector(".screenTitle").innerHTML){
+        return
+    }
+    populateProject(titleContent) & projectFadeIn();
 }
 
 function projectFadeIn() {
