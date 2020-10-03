@@ -18,6 +18,10 @@
     border: none;
 }
 
+.dropdown-btn:hover{
+    cursor: pointer;
+}
+
 .dropdown-btn:focus{
     outline: none;
 }
@@ -48,7 +52,7 @@
 }
 
 .project{
-    margin: 15%;
+    margin: 10%;
     font-size: 2vw;
     font-weight: bold;
     display: flex;
@@ -64,11 +68,13 @@
 
 .project:hover{
     background-color: rgb(20, 20, 20);
+    cursor: pointer;
 }
 
 .projectTitle{
+    padding-top: 10px;
     width: 100%;
-    height: 20%;
+    height: 30%;
     font-size: 1.5vw;
     background-color: rgb(50, 50, 50);
     display: flex;
@@ -88,22 +94,28 @@
 
 .projectScreen{
     width: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    visibility: hidden;
+
 }
 
 .screenTitle{
     width: 100%;
     height: 10%;
     margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
 }
 
 .projectSources{
     padding: 5px;
-    width: 100%;
+    width: 97.5%;
     height: 10%;
     display: flex;
     justify-content: center;
@@ -116,29 +128,37 @@
     color: white;
     display: flex;
     height: 100%;
-    width: 50%;
+    width: 45%;
     justify-content: center;
     align-items: center;
-
     padding: 5px;
+    font-size: 1.5vw;
 }
+
+.sourceCode:hover{
+    color: grey;
+    cursor: pointer;
+}
+
 .sourceCode img{
     padding: 5px;
-
-    height: 100%;
+    height: 90%;
     width: auto;
 }
 
-.fa-eye{
-    width: auto;
-    height: 100%;
-}
+
 
 .projectReadme{
     width: 100%;
     height: 80%;
-
+    overflow: scroll;
 }
+
+.projectReadme::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+}
+
 
 
 
@@ -167,12 +187,38 @@
     }
 
     .dropdown-btn{
-        font-size: 1.75vw;
+        font-size: 2vw;
     }
 
     .projectTitle{
         height: 35%;
         font-size: 1.5vw;
+    }
+
+
+    .projectSources{
+        padding: 5px;
+        width: 97.5%;
+        height: 15%;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    
+    .sourceCode {
+        height: 100%;
+        width: 45%;
+        padding: 5px;
+        font-size: 2vw;
+    }
+    .sourceCode img{
+        padding: 5px;
+    
+        height: 100%;
+        width: 32.5%;
     }
 
 }
