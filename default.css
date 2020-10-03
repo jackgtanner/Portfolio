@@ -136,7 +136,7 @@ footer{
     margin: 0px;
     padding: 1px;
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
     background-color: black;
     color: grey;
     width: 100%;
@@ -160,19 +160,19 @@ footer{
     }
 
     .navBar{
-        height: 5%;
+        height: 7%;
     }
 
-    a {
+    .navBarLink{
         font-size: 12px;
     }
 
     .leftSide{
-        height: 95%;
+        height: 93%;
     }
 
     .rightSide{
-        height: 95%;
+        height: 93%;
     } 
 
     .welcome{
@@ -186,7 +186,7 @@ footer{
 @media (max-width: 600px) {
 
     .mainContainer{
-        margin: 12.5%;
+        margin: 12%;
         
     }
 
@@ -206,7 +206,7 @@ footer{
         height: 92%;
     }
 
-    a{
+    .navBarLink{
         font-size: 9px;
     }
   }
