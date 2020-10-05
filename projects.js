@@ -77,7 +77,7 @@ function populateProject(title) {
     // This was the only solution I could think of which would make this work the same on safari as it does on other browsers
 
     if (screenTitle.innerText === "jackgtanner (This Website!)" || screenTitle.innerText === "\njackgtanner (This Website!)\n") {
-        readME.innerHTML = "<div>This is the first functioning website i've attempted to build!</div><div>I'm happy with the design, and how quickly I've been able to put this together while learning along side building it</div><div>This was built using HTML, CSS & JS. I think in the future, I would come back and completely redesign the site after learning a framework such as React, but until then, this is my Portfolio :)</div><div>Have a look around, and feel free to contact me if you would like to!</div>";
+        readME.innerHTML = "<div>This is the first functioning website i've attempted to build!</div><div>I'm happy with the design, and how quickly I've been able to put this together while learning alongside building it</div><div>This was built using HTML, CSS & JS. I think in the future, I would come back and completely redesign the site after learning a framework such as React, but until then, this is my Portfolio :)</div><div>Have a look around, and feel free to contact me if you would like to!</div>";
         live.href = "https://www.jackgtanner.co.uk";
         gitHub.href = "https://github.com/jackgtanner/Portfolio";
 
