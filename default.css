@@ -154,7 +154,7 @@ footer{
     }
   }
 
-  @media screen and (min-width: 601px) and (max-width: 900px) {
+    @media screen and (min-width: 601px) and (max-width: 900px) {
     .mainContainer{
         margin: 8%;
     }
