@@ -149,14 +149,34 @@
 
 
 .projectReadme{
-    width: 100%;
+    width: 90%;
     height: 80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
     overflow: scroll;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
 }
+
+.projectReadme a{
+    color: rgba(111, 111, 197);
+}
+
+.projectReadme a:hover{
+    color: rgb(100, 100, 100);
+}
+
+
 
 .projectReadme::-webkit-scrollbar {
     height: 0px;
     width: 0px;
+    background-color: rgb(40, 40, 40, 0.9);
 }
 
 
@@ -176,6 +196,10 @@
     .projectTitle{
         height: 35%;
         font-size: 1.8vw;
+    }
+
+    .projectReadme{
+        font-size: 15px;
     }
 
 }
@@ -219,6 +243,10 @@
     
         height: 100%;
         width: 32.5%;
+    }
+
+    .projectReadme{
+        font-size: 12px;
     }
 
 }
