@@ -160,7 +160,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    text-align: center;
+    text-align: start;
 }
 
 .projectReadme a{
