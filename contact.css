@@ -98,17 +98,11 @@ ul li:nth-child(4)::before
     overflow: auto;
 }
 
-
-
 .fa-smile-beam
 {
     font-size: 2vw;
     color: rgb(100, 100, 100);
 }
-
-
-
-
 
 
 
@@ -125,5 +119,10 @@ ul li:nth-child(4)::before
     .contactText
     {
         font-size: 3vw;
+    }
+
+    .fa-smile-beam
+    {
+        font-size: 1.5vw;
     }
 }
