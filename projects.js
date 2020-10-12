@@ -72,7 +72,7 @@ function populateProject(title) {
     live = document.getElementById("live");
     gitHub = document.getElementById("gitHub");
 
-    screenTitle.innerText === "Calculator" || screenTitle.innerText === "\nCalculator\n" ? console.log("yes") : console.log("no"); 
+    screenTitle.innerText === "Calculator" || screenTitle.innerText === "\nCalculator\n" ? console.log("yes") : console.log("no");
     // The || screenTitle.innerText === "\nCalculator\n" is becuase on safari's version 14.0, for some reason the variable is different to what it would be on chrome or firefox...
     // This was the only solution I could think of which would make this work the same on safari as it does on other browsers
 
@@ -96,8 +96,13 @@ function populateProject(title) {
         live.href = "https://tictactoe.jackgtanner.repl.run";
         gitHub.href = "https://github.com/jackgtanner/tic_tac_toe";
 
+    } else if (screenTitle.innerText === "Mastermind" || screenTitle.innerText === "\nMastermind\n") {
+        readME.innerHTML = "<div>This is my attempt at making the game Mastermind within the console, this is the second project in Ruby from <a href='https://www.theodinproject.com/lessons/mastermind'>The Odin Project</a></div><div>The full list of rules and details of the game can be found here on the <a href='http://en.wikipedia.org/wiki/Mastermind_(board_game)'>Wikipedia page</a> about the game.</div>";
+        live.href = "https://mastermind.jackgtanner.repl.run";
+        gitHub.href = "https://github.com/jackgtanner/mastermind";
+
     }
-    
+
 
     return
 }
@@ -109,7 +114,6 @@ function populateProject(title) {
 //     gitHub.href = "";
 
 // }
-
 
 
 
