@@ -106,6 +106,11 @@ function populateProject(title) {
         live.href = "https://hangman-2.jackgtanner.repl.run";
         gitHub.href = "https://github.com/jackgtanner/hangman";
 
+    } else if (screenTitle.innerText === "Hangman Twitter Bot" || screenTitle.innerText === "\nHangman Twitter Bot\n") {
+        readME.innerHTML = "<div>I turned the Hangman game into a twitter bot!</div><div>To get started you simply have to tweet it using the command !play, and it will start a game of hangman with you via tweets! What a fantastic world we live in</div><div>For this project I had to get to grips with the twitter API, and the twitter gem for ruby</div><div>I had to adapt the original code slightly form the last project, to make it fit the medium it would be played</div><div>I haven't made this repository public on github because it includes the access keys for the account itself</div>";
+        live.href = "https://twitter.com/Hangman_Bot";
+        gitHub.href = "";
+    
     }
 
     return
