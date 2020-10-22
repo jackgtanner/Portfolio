@@ -82,22 +82,22 @@ function populateProject(title) {
         gitHub.href = "https://github.com/jackgtanner/Portfolio";
 
     } else if (screenTitle.innerText === "Calculator" || screenTitle.innerText === "\nCalculator\n") {
-        readME.innerHTML = "<div>This is my version of the Calculator project, which is part of the <a href='https://www.theodinproject.com/courses/web-development-101/lessons/calculator?ref=lnav'>Odin Project's learning course</a></div><div>The user is presented with a simple functioning calculator when the page loads</div><div>They're able to then perform basic functions such as addition, subtraction, multiplication</div><div>Languages I used within this project were: HTML, CSS, Javascript. While the main concept to practice was DOM manipulation within JS by changing the display dynamically, as well as to practice the use of functions within JS for when the user wants to add, subtract ect...</div>";
+        readME.innerHTML = "<div>This is my version of the Calculator project, which is part of the <a href='https://www.theodinproject.com/courses/web-development-101/lessons/calculator?ref=lnav' target='_blank'>Odin Project's learning course</a></div><div>The user is presented with a simple functioning calculator when the page loads</div><div>They're able to then perform basic functions such as addition, subtraction, multiplication</div><div>Languages I used within this project were: HTML, CSS, Javascript. While the main concept to practice was DOM manipulation within JS by changing the display dynamically, as well as to practice the use of functions within JS for when the user wants to add, subtract ect...</div>";
         live.href = "https://jackgtanner.github.io/calculator-project/";
         gitHub.href = "https://github.com/jackgtanner/calculator-project";
 
     } else if (screenTitle.innerText === "Etch-a-Sketch" || screenTitle.innerText === "\nEtch-a-Sketch\n") {
-        readME.innerHTML = "<div>This is my version of the Etch-A-Sketch project, which is part of the <a href='https://www.theodinproject.com/courses/web-development-101/lessons/etch-a-sketch-project?ref=lnav'>Odin Project's learning course.</a>\n</div><div>The user is presented with a 16x16 grid. Each cell turns grey when moused over, acting like an Etch-A-Sketch.</div>The reset button is then used to reset the grid. While the user is also prompted to choose the dimensions of the new grid. The container stays the same size, so they are choosing the 'resolution'.<div>Maximum size of 100 for the grid was chosen to not allow the browser to take too long to compute</div><div>Languages I used within this project were: HTML, CSS, Javascript. While the main concept to practice was DOM manipulation within JS by changing the grid dynamically to the users preference";
+        readME.innerHTML = "<div>This is my version of the Etch-A-Sketch project, which is part of the <a href='https://www.theodinproject.com/courses/web-development-101/lessons/etch-a-sketch-project?ref=lnav' target='_blank'>Odin Project's learning course.</a>\n</div><div>The user is presented with a 16x16 grid. Each cell turns grey when moused over, acting like an Etch-A-Sketch.</div>The reset button is then used to reset the grid. While the user is also prompted to choose the dimensions of the new grid. The container stays the same size, so they are choosing the 'resolution'.<div>Maximum size of 100 for the grid was chosen to not allow the browser to take too long to compute</div><div>Languages I used within this project were: HTML, CSS, Javascript. While the main concept to practice was DOM manipulation within JS by changing the grid dynamically to the users preference";
         live.href = "https://jackgtanner.github.io/EtchASketch/";
         gitHub.href = "https://github.com/jackgtanner/EtchASketch";
 
     } else if (screenTitle.innerText === "Tic-Tac-Toe" || screenTitle.innerText === "\nTic-Tac-Toe\n") {
-        readME.innerHTML = "<div>My version of a game within the console of Tic-Tac-Toe. This is the first substancial project in the <a href='https://www.theodinproject.com/courses/ruby-programming/lessons/tic-tac-toe'> Odin Project's learning course.</a></div><div>This is the first real project in which I've had to utilise making my own classes in an Object Orientated Language, in this case, Ruby</div><div>It's a simple game of Tic-Tac-Toe between two players.</div><div>The links below will take you to the live version and the source code</div>";
+        readME.innerHTML = "<div>My version of a game within the console of Tic-Tac-Toe. This is the first substancial project in the <a href='https://www.theodinproject.com/courses/ruby-programming/lessons/tic-tac-toe' target='_blank'> Odin Project's learning course.</a></div><div>This is the first real project in which I've had to utilise making my own classes in an Object Orientated Language, in this case, Ruby</div><div>It's a simple game of Tic-Tac-Toe between two players.</div><div>The links below will take you to the live version and the source code</div>";
         live.href = "https://tictactoe.jackgtanner.repl.run";
         gitHub.href = "https://github.com/jackgtanner/tic_tac_toe";
 
     } else if (screenTitle.innerText === "Mastermind" || screenTitle.innerText === "\nMastermind\n") {
-        readME.innerHTML = "<div>This is my attempt at making the game Mastermind within the console, this is the second project in Ruby from <a href='https://www.theodinproject.com/lessons/mastermind'>The Odin Project</a></div><div>The full list of rules and details of the game can be found here on the <a href='http://en.wikipedia.org/wiki/Mastermind_(board_game)'>Wikipedia page</a> about the game.</div>";
+        readME.innerHTML = "<div>This is my attempt at making the game Mastermind within the console, this is the second project in Ruby from <a href='https://www.theodinproject.com/lessons/mastermind' target='_blank'>The Odin Project</a></div><div>The full list of rules and details of the game can be found here on the <a href='http://en.wikipedia.org/wiki/Mastermind_(board_game)'>Wikipedia page</a> about the game.</div>";
         live.href = "https://mastermind.jackgtanner.repl.run";
         gitHub.href = "https://github.com/jackgtanner/mastermind";
 
@@ -111,13 +111,18 @@ function populateProject(title) {
         live.href = "https://twitter.com/Hangman_Bot";
         gitHub.href = "";
     
+    } else if (screenTitle.innerText === "Youtube Video Player" || screenTitle.innerText === "\nYoutube Video Player\n") {
+        readME.innerHTML = "<div>This project was to reinforce the idea of addding media to a webpage. Embedding a video, or an img</div><div>It is the first project in <a href='https://www.theodinproject.com/lessons/embedding-images-and-video' target='_blank'>The Odin Project's</a> section on HTML & CSS.</div><div>Beyond the video player and the featured/suggested video's, the comment section and additional interactivity wasn't required.</div><div>I would have liked to have been able to use a font such as Font-Awesome to be able to keep the icons consistent. Which I would say is definitely the fall down of the page, but I also can't purchase icon packs at the moment, so I had to make do with googling various svg's  :)</div>";
+        live.href = "https://jackgtanner.github.io/YoutubePlayer/";
+        gitHub.href = "https://github.com/jackgtanner/YoutubePlayer";
+    
     }
 
     return
 }
 
 
-// } else if (screenTitle.innerText === "" || screenTitle.innerText === "\n\n") {
+// else if (screenTitle.innerText === "" || screenTitle.innerText === "\n\n") {
 //     readME.innerHTML = "";
 //     live.href = "";
 //     gitHub.href = "";
