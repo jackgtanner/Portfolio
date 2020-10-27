@@ -116,6 +116,11 @@ function populateProject(title) {
         live.href = "https://jackgtanner.github.io/YoutubePlayer/";
         gitHub.href = "https://github.com/jackgtanner/YoutubePlayer";
     
+    } else if (screenTitle.innerText === "HTML Form" || screenTitle.innerText === "\nHTML Form\n") {
+        readME.innerHTML = "<div>Here's a link to <a href='https://www.theodinproject.com/courses/html-and-css/lessons/html-forms'>the Odin Project's</a>, project brief for this page</div><div>The idea of this was to test our eye for how pages are designed, by seeing if we're able to accurately recreate a page. Much like the youtube player in the previous project</div><div>The page we were set to recreate was <a href='https://wwws.mint.com/login.event?task=S'>Mint.com's signup page.</a> My version isn't 100% pixel perfect. But I'm incredibly pleased with the accuracy with which I was able to get mine to</div><div>I also learned a few things about the Inspector tool, like being able to see and save the source images! Which saved a lot of time trawling through the web to find simlilar resources, or making my own.</div>";
+        live.href = "https://jackgtanner.github.io/Signup-Page/";
+        gitHub.href = "https://github.com/jackgtanner/Signup-Page";
+    
     }
 
     return
