@@ -121,6 +121,16 @@ function populateProject(title) {
         live.href = "https://jackgtanner.github.io/Signup-Page/";
         gitHub.href = "https://github.com/jackgtanner/Signup-Page";
     
+    } else if (screenTitle.innerText === "NYT-Article" || screenTitle.innerText === "\nNYT-Article\n") {
+        readME.innerHTML = "<div>The task for this <a href='https://www.theodinproject.com/courses/html-and-css/lessons/positioning-and-floating-elements'>project</a> was to recreate <a href='http://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0'>this New York Times Article,</a> minus the interactive parts which involved JavaScript</div><div>This was to get a feel for the layout of a blog/article site and make the most of the grid & flexbox display's</div><div>I would probably admit that I need to make myself use grid's slightly more to get as comfortable as I am with a flexbox</div><div>I'm definitely happy with how it turned out though, taking the best part of a day to do. I started to task myself with purposely making css classes which I could reuse. DRY - Dont Repeat Yourself :)</div>";
+        live.href = "https://jackgtanner.github.io/Positioning-and-Floating-Elements/";
+        gitHub.href = "https://github.com/jackgtanner/Positioning-and-Floating-Elements";
+    
+    } else if (screenTitle.innerText === "Snake" || screenTitle.innerText === "\nSnake\n") {
+        readME.innerHTML = "<div>This game of snake wasn't part of the Odin Project. But I wanted to take a day to break away from the course to get stuck into some JavaScript.</div><div>So I found a tutorial online and went through it to make my own game of snake!</div><div>This was the first page which I've encorporated my own favicon & sound assets</div><div>In the future I think I'll come back to this again to add my pixel art to the snake itself, rather than it being a pink worm at the moment</div>";
+        live.href = "https://jackgtanner.github.io/Snake/";
+        gitHub.href = "https://github.com/jackgtanner/Snake";
+    
     }
 
     return
