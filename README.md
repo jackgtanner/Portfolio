@@ -1,4 +1,4 @@
-This is the first functioning website i've attempted to build!
+This is the first functioning website i've attempted to build!!
 
 I'm happy with the design, and how quickly I've been able to put this together while learning along side building it
 
