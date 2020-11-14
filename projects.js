@@ -131,6 +131,16 @@ function populateProject(title) {
         live.href = "https://jackgtanner.github.io/Snake/";
         gitHub.href = "https://github.com/jackgtanner/Snake";
     
+    } else if (screenTitle.innerText === "The Courtyard Menu" || screenTitle.innerText === "\nThe Courtyard Menu\n") {
+        readME.innerHTML = "<div>This was a page which was to aid a resteraunt called the Courtyard with an online menu</div><div>The idea was to also provide QR codes with logo's which would take you straight to the page. Which can be found in the assets file</div><div>Due to the coronavirus, and lockdowns, it's important for even independant businesses to have an online presence</div><div>This allows customers to not have to hangle paper menu's in person. Also with deliveries, being able to see it will speed up the ordering process over the phone.</div>";
+        live.href = "http://www.eahpropertyservices.co.uk/Courtyard.html";
+        gitHub.href = "https://github.com/jackgtanner/The-Courtyard";
+    
+    } else if (screenTitle.innerText === "Building With Responsive Design" || screenTitle.innerText === "\nBuilding With Responsive Design\n") {
+        readME.innerHTML = "<div>This project was all about responsive design. Design which dynamically changes depending on the size of the browser window by using media queries</div><div>It was a project I really enjoyed. It was great to really get to grips with the design process of this news site.</div><div>One thing I've 100% improved upon, and feel more comfortable using, is the grid display!</div><div>I would say that between flex and grid, I would be able to comfortably recreate almost any site</div>";
+        live.href = "https://jackgtanner.github.io/Building-with-Responsive-Design/";
+        gitHub.href = "https://github.com/jackgtanner/Building-with-Responsive-Design";
+    
     }
 
     return
