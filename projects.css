@@ -159,8 +159,7 @@
     display: inline-flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
-    text-align: start;
+    text-align: justify;
 }
 
 .projectReadme a{

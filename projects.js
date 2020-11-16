@@ -137,7 +137,7 @@ function populateProject(title) {
         gitHub.href = "https://github.com/jackgtanner/The-Courtyard";
     
     } else if (screenTitle.innerText === "Building With Responsive Design" || screenTitle.innerText === "\nBuilding With Responsive Design\n") {
-        readME.innerHTML = "<div>This project was all about responsive design. Design which dynamically changes depending on the size of the browser window by using media queries</div><div>It was a project I really enjoyed. It was great to really get to grips with the design process of this news site.</div><div>One thing I've 100% improved upon, and feel more comfortable using, is the grid display!</div><div>I would say that between flex and grid, I would be able to comfortably recreate almost any site</div>";
+        readME.innerHTML = "<div>This project was all about responsive design. Design which dynamically changes depending on the size of the browser window by using media queries. For this project, the task I was given was to replicate <a href='https://thenextweb.com'>TNW's Landing Page.</a></div><div>It was a project I really enjoyed. It was great to really get to grips with the design process of this news site.</div><div>One thing I've 100% improved upon, and feel more comfortable using, is the grid display!</div><div>Open both of them up side by side to compare</div><div>I would say that between flex and grid, I would be able to comfortably recreate almost any site given the time to plan</div>";
         live.href = "https://jackgtanner.github.io/Building-with-Responsive-Design/";
         gitHub.href = "https://github.com/jackgtanner/Building-with-Responsive-Design";
     
